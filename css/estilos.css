@@ -1,5 +1,5 @@
 body{
-   background-color: black;
+   background: black;
    color: white;
    text-align: left;
    font-family: 'Lucida Sans';
@@ -9,6 +9,7 @@ body{
 }
 
 #cabecera{
+   color: whitesmoke;
    background: #33A;
    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
    font-weight: bold;
@@ -17,6 +18,7 @@ body{
 }
 
 #cabecera #tagline{
+   color: whitesmoke;
    padding: 0 0 0 1em;
    font-weight: normal;
    font-size: 0.8rem;
@@ -28,6 +30,8 @@ body{
 }
 
 #container{
+   background: whitesmoke;
+   color: black;
    width: 70%;
    padding: 0;
    text-align: left;
@@ -40,5 +44,6 @@ body{
 }
 
 #post{
+   padding: 1em;
    font-size: 0.8rem;
 }
