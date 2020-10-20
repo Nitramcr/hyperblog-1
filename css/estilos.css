@@ -1,8 +1,9 @@
 body{
-   color: #333;
+   background-color: black;
+   color: white;
    text-align: left;
    font-family: 'Lucida Sans';
-   font-size: 1rem;
+   font-size: 1.5rem;
    margin: 0;
    padding: 0;
 }
@@ -10,10 +11,9 @@ body{
 #cabecera{
    background: #33A;
    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-   color: white;
    font-weight: bold;
    margin: 0;
-   padding: 0.5em;
+   padding: 0.5em 0em 0.5em 0.5em;
 }
 
 #cabecera #tagline{
@@ -22,9 +22,14 @@ body{
    font-size: 0.8rem;
 }
 
+#cabecera #logo{
+   width: 40px;
+   vertical-align: middle;
+}
+
 #container{
    width: 70%;
-   padding: 1em;
+   padding: 0;
    text-align: left;
    border: 1px solid #DDD;
    margin: 0 auto;
@@ -32,4 +37,8 @@ body{
 
 #container h1{
    font-size: 1.5rem;
+}
+
+#post{
+   font-size: 0.8rem;
 }
