@@ -3,3 +3,9 @@ Soy argentino.
 Tengo 33 años.
 Vivo en Madrid.
 Estudio programación e inglés.
+
+Yo soy Nitram.
+Soy chileno.
+Tengo 19 años.
+Vivo en Mendoza.
+Estudio programacion y veo Naruto.
