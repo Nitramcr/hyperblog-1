@@ -2,18 +2,38 @@
    <title>Bienvenidos a Hyperblog | Un blog hyper cool</title>
    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
    <div id="container">
       <div id="cabecera">
+         <img id="logo" src="/imagenes/elon.png" alt="">
          Hyperblog
          <span id="tagline">Tu blog de cabecera</span>
       </div>
       <div id="post">
          <h1>Este es el título atractivo e interesante del post</h1>
          <p>Y este es el párrafo de inicio donde vamos a explicar las cosas incríbles que se pueden hacer con ramas.</p>
-         <p>Los blogs son la mejor forma de compartir información y tus ideas. Mucho más que ir a conferencias o salir en YouTube. Excepto si eres un rockstar. Pero estadísticamente no lo eres. Por ahora.</p>
+         <p>Los blogs son la mejor forma de compartir información y tus ideas. Mucho más que ir a conferencias o salir
+            en YouTube. Excepto si eres un rockstar. Pero estadísticamente no lo eres. Por ahora.</p>
          <p>Suscríbete y dale like.</p>
       </div>
+      <div id="footer">
+         Hecho con amor en Patzi!
+      </div>
+      <a href="www.gmail.com" class="miLink">martingolramirez@gmail.com</a><br />
+      <a href="www.gmail.com" class="miLink">fedevmoreno@gmail.com</a><br />
+
+      <button id="button" onclick="miFuncion();">Medios de contacto disponibles:</button>
+
+      <script type="text/javascript">
+
+         // Utilice querySelector
+
+         function miFuncion() {
+            document.querySelector("a[class = 'miLink']").style.backgroundColor = "yellow";
+         }
+      </script>
    </div>
 </body>
+
 </html>
