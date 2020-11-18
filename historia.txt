@@ -10,4 +10,6 @@ Tengo 19 años.
 Vivo en Mendoza.
 Estudio programación y veo Naruto.
 
+Séptimo Hokage...
+
 Contribuyo en este proyecto open source ya que me rajaron como collaborator :(
