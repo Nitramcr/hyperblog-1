@@ -12,3 +12,5 @@ Disponible para todos!
 * Trucos muy locos del profesor
 * Las personalidades múltiples de Freddie
 * Creado por el increíble Platzi Team
+* Incluye experiencia de trabajo con el loco fedev
+* Disponible para todas las edades
